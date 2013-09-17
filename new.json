@@ -1,0 +1,47 @@
+[
+    {
+        "nokia": [
+            {
+                "name": "Asha",
+                "color": "red",
+                "val": 2704659,
+                "tooltip": "Nokia Asha 501 Sold with 400"
+            },
+            {
+                "name": "Windows Lumia",
+                "color": "Blue",
+                "val": 4499890,
+                "tooltip": "Nokia Asha 502 Sold with 600"
+            },
+            {
+                "name": "X2",
+                "color": "green",
+                "val": 2000000,
+                "tooltip": "Nokia Asha 502 Sold with 600"
+            },
+            {
+                "name": "Galaxy Grand",
+                "brand": "Samsung",
+                "color": "yellow",
+                "val": 9000000,
+                "tooltip": "Nokia Asha 502 Sold with 600"
+            }
+        ]
+    },
+    {
+        "samsung": [
+            {
+                "name": "10",
+                "color": "red",
+                "val": 2704659,
+                "tooltip": "Nokia Asha 501 Sold with 400"
+            },
+            {
+                "name": "20",
+                "color": "Blue",
+                "val": 4499890,
+                "tooltip": "Nokia Asha 502 Sold with 600"
+            }
+        ]
+    }
+]

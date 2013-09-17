@@ -1,0 +1,51 @@
+[
+    {
+        "categories": [
+            "Nokia",
+            "Samsung",
+            "Sony",            
+            "MicroMax"
+        ],
+        "groups" : [ 
+            "Asha",
+            "X2"
+        ],
+
+        "max_value" : 9000000,
+        "data": {
+            "id": 1,            
+            "genre": "CA",
+            "series": [
+                {
+                    "name": "Asha",
+                    "brand": "Nokia",
+                    "color": "red",
+                    "val": 2704659,
+                    "tooltip": "Nokia Asha 501 Sold with 400"
+                },
+                {
+                    "name": "Windows Lumia",
+                    "brand": "Nokia",
+                    "color": "Blue",
+                    "val": 4499890,
+                    "tooltip": "Nokia Asha 502 Sold with 600"
+                },
+                {
+                    "name": "X2",
+                    "brand": "Nokia",
+                    "color": "green",
+                    "val": 2000000,
+                    "tooltip": "Nokia Asha 502 Sold with 600"
+                },
+                {
+                    "name": "Galaxy Grand",
+                    "brand": "Samsung",
+                    "color": "yellow",
+                    "val": 9000000,
+                    "tooltip": "Nokia Asha 502 Sold with 600"
+                }
+
+            ]
+        }
+    }
+]

@@ -1,0 +1,65 @@
+<html>
+<head>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/barchart.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/tooltip.js"></script>
+<script src="js/bar.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.min.css">
+
+<style type="text/css">
+.axis text {
+font: 10px sans-serif;
+}
+
+.axis path, .axis line {
+fill: none;
+stroke: #000;
+shape-rendering: crispEdges;
+}
+</style>
+</head>
+<body>
+<div id="chart"></div>
+<div class="popover fade  in" style="display: block; display: none; ">
+  <div class="arrow"></div>      
+  <div class="popover-content"></div>
+</div>
+
+</body>
+
+<script type="text/javascript">
+
+  var margin = {top: 10, right: 10, bottom: 30, left: 50};
+  var width = 500 - margin.left - margin.right;
+  var height = 500 - margin.top - margin.bottom;
+
+  var categories = ["nokia","samsung","sony", "micromax", "lava", "blackberry","lenova", "china", "seimens", "panasonic", "alcatel"  ];
+  
+  var div_id = "chart";
+  var data = [
+            ["nokia",100, "red", "<h1>Nokia</h1> saleskfjlkasjfsa"],
+            ["samsung",250, "blue", "<h1>samsung</h1> saleskfjlkasjfsa"],
+            ["sony", 50, "green", "<h1>sony </h1>saleskfjlkasjfsa"],
+            ["micromax",350, "orange", "<h1>micromax</h1> saleskfjlkasjfsa"],
+            ["lava",100, "yellow", "<h1>lava</h1> saleskfjlkasjfsa"],
+            ["blackberry",250,"pink", "<h1>blackberry</h1> saleskfjlkasjfsa"],
+            ["lenova", 50,"teal", "<h1>lenova</h1> saleskfjlkasjfsa"],
+            ["china",350,"grey", "<h1>china</h1> saleskfjlkasjfsa"],
+            ["seimens", 2, "lightblue", "<h1>seimens</h1> saleskfjlkasjfsa"],
+            ["panasonic", 11, "navyblue", "<h1>panasonic </h1>saleskfjlkasjfsa"],
+            ["alcatel", 25, "lightgreen", "<h1>alcatel</h1> saleskfjlkasjfsa"]
+          ];
+
+
+  bar_chart_init(data,margin, width, height, categories, div_id);
+
+</script>
+
+</html>

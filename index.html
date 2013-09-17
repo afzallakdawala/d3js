@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <title>
+      Testing d3 
+    </title>
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/d3.v3.min.js"></script>
+    <script src="js/barchart.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/tooltip.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.min.css">
+
+    <style>
+      text {
+        font-weight: bolder;
+        font-size: 16px;
+        font-family: sans-serif;
+      }
+    </style>
+
+  </head>
+  <body>
+
+    <div class="row">
+      <div class="span8" id="bar_chart">
+
+      </div>
+
+      <div class="span4" id="crossfilter_data">
+
+
+      </div>
+    </div>
+    
+    <script>
+
+      var canvas_width = 1024;
+      var canvas_height = 900;
+      var gap_between_bars = 40;
+      var tooltip_class_name = "rect";
+      var div_id = "bar_chart";
+
+      bar_chart(canvas_width, canvas_height, gap_between_bars, div_id );
+
+    </script>
+
+
+    <div class="popover fade  in" style="display: block; display: none; ">
+      <div class="arrow"></div>      
+      <div class="popover-content"></div>
+    </div>
+
+  </body>
+</html>

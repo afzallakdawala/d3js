@@ -1,0 +1,38 @@
+<html>
+<head>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/barchart.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/tooltip.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.min.css">
+
+</head>
+<body>
+
+</body>
+
+<script type="text/javascript">
+
+    var dataset = [ 5, 10, 20, 45, 6, 25 ];
+    var pie = d3.layout.pie();
+    
+    var w = 300;
+    var h = 300;
+    var outerRadius = w / 2;
+    var innerRadius = 0;
+    var arc = d3.svg.arc()
+            .innerRadius(innerRadius)
+            .outerRadius(outerRadius);
+
+
+
+</script>
+</html>
+
+ 

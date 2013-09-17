@@ -1,0 +1,62 @@
+[
+    {
+        "categories": [
+            "Nokia",
+            "Samsung"
+            
+        ],
+
+        "groups" : [
+            "10",
+            "20",
+            "30"
+        ],
+
+        "max_value" : 9000000,
+        "data": [
+            {
+            "id": 1,            
+            "category": "Nokia",
+            "series": [
+                {
+                    "name": "10",
+                    "color": "red",
+                    "val": 454554,
+                    "tooltip": "Nokia Asha 501 Sold with 400"
+                },
+                {
+                    "name": "20",
+                    "color": "Blue",
+                    "val": 233232,
+                    "tooltip": "Nokia Asha 502 Sold with 600"
+                },
+                {
+                    "name": "30",
+                    "color": "green",
+                    "val": 2000000,
+                    "tooltip": "Nokia Asha 502 Sold with 600"
+                }
+            ]
+        },
+        {
+            "id": 2,            
+            "category": "Samsung",
+            "series": [
+                {
+                    "name": "10",
+                    "color": "red",
+                    "val": 2704659,
+                    "tooltip": "Nokia Asha 501 Sold with 400"
+                },
+                {
+                    "name": "20",
+                    "color": "Blue",
+                    "val": 4499890,
+                    "tooltip": "Nokia Asha 502 Sold with 600"
+                }
+
+            ]
+        }
+        ]
+    }
+]
