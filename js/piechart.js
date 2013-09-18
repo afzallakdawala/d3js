@@ -78,6 +78,9 @@ function generate_text(arcs, json_data, arc) {
             return "translate(" + arc.centroid(json_data) + ")";
           })
           .attr("text-anchor", "middle")
+          .attr("fill", "white")
+          .style("font-size", "12px")
+          .style("font-family", "Helvetica Neue,Helvetica,Arial,sans-serif")
           .text(function(json_data) {
             return json_data.data[0] ;
           })

@@ -3,11 +3,12 @@ $(document).ready(function(){
   $("g").mousemove(function(event){
 
     $('.popover').css({'margin-left':event.pageX,
-                      'margin-top':event.pageY - 50                      
+                      'margin-top':event.pageY - 50,
+                      
                     }).show();       
     $(".popover-content").html($(this).children("text").attr("tooltip"));
 
-    $(this).css({'opacity':0.4});
+    $(this).css({'opacity':0.9});
 
   });
 

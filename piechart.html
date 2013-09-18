@@ -24,22 +24,16 @@
 <script type="text/javascript">
     
   var dataset = [
-            ["nokia",100, "red", "<h1>Nokia</h1> saleskfjlkasjfsa"],
-            ["samsung",250, "blue", "<h1>samsung</h1> saleskfjlkasjfsa"],
-            ["sony", 50, "green", "<h1>sony </h1>saleskfjlkasjfsa"],
-            ["micromax",350, "orange", "<h1>micromax</h1> saleskfjlkasjfsa"],
-            ["lava",100, "yellow", "<h1>lava</h1> saleskfjlkasjfsa"],
-            ["blackberry",250,"pink", "<h1>blackberry</h1> saleskfjlkasjfsa"],
-            ["lenova", 50,"teal", "<h1>lenova</h1> saleskfjlkasjfsa"],
-            ["china",350,"grey", "<h1>china</h1> saleskfjlkasjfsa"],
-            ["seimens", 2, "lightblue", "<h1>seimens</h1> saleskfjlkasjfsa"],
-            ["panasonic", 11, "navyblue", "<h1>panasonic </h1>saleskfjlkasjfsa"],
-            ["alcatel", 25, "lightgreen", "<h1>alcatel</h1> saleskfjlkasjfsa"]
+            ["nokia",100, "#c6dbef", "<h1>Nokia</h1> saleskfjlkasjfsa"],
+            ["samsung",250, "#3182bd", "<h1>samsung</h1> saleskfjlkasjfsa"],
+            ["sony", 50, "#9ecae1", "<h1>sony </h1>saleskfjlkasjfsa"],
+            ["micromax",350, "#c6dbef", "<h1>micromax</h1> saleskfjlkasjfsa"]
+
           ];
-    var chart_width = 500;
-    var chart_height = 500;
-    var donut = {"create" : false, "radius" : 3 };
-    var automated_color = true;
+    var chart_width = 180;
+    var chart_height = 180;
+    var donut = {"create" : true, "radius" : 5 };
+    var automated_color = false;
 
     pie_chart_init(dataset, chart_width, chart_height, donut, automated_color);
 
