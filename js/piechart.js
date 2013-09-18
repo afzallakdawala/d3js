@@ -61,8 +61,14 @@ function generate_colors(automated_color, json_data, arcs, arc) {
                         }
 
                       
-    })
-    .attr("d", arc);
+    }).transition()
+      .delay(function(json_data, i) {
+              return i * 100;
+              })
+      .duration(1300)
+    .attr("d", arc)        
+
+;
 
 }
 
@@ -74,5 +80,9 @@ function generate_text(arcs, json_data, arc) {
           .attr("text-anchor", "middle")
           .text(function(json_data) {
             return json_data.data[0] ;
-          });
+          })
+          .attr("class", "tool")
+          .attr("tooltip", function(json_data) {
+            return json_data.data[3]; })
+          ;
 }

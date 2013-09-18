@@ -5,7 +5,7 @@
 <script src="js/piechart.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="js/tooltip.js"></script>
+<script src="js/pietooltip.js"></script>
 
 <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
@@ -14,6 +14,10 @@
 
 </head>
 <body>
+    <div class="popover fade  in" style="display: block; display: none; ">
+      <div class="arrow"></div>      
+      <div class="popover-content"></div>
+    </div>   
 
 </body>
 
@@ -34,7 +38,7 @@
           ];
     var chart_width = 500;
     var chart_height = 500;
-    var donut = {"create" : true, "radius" : 3 };
+    var donut = {"create" : false, "radius" : 3 };
     var automated_color = true;
 
     pie_chart_init(dataset, chart_width, chart_height, donut, automated_color);
